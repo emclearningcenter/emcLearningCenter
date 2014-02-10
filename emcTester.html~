@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet"
+ href="stylesheet.css"/>
+		<script type='text/javascript' src='slide.js'></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js"></script>
+		<title> 
+			EMC Learning Center
+		</title>
+			
+	</head>	
+	<body>
+		<div id = "header">
+			<h1>
+				EMC Learning Center	
+			</h1>
+			<ul> 
+				Where success is nurtured
+			<ul> 
+		</div>
+		<div id="first">			  								
+		</div>
+		
+		<div id = "buttons" >
+			<a href="https://www.google.com/">
+					 Button123 
+	 			</a>
+			<a href="https://www.google.com/">
+					 Button223 
+	 			</a>
+			<a href="https://www.google.com/">
+					 Button3344 
+	 			</a>
+		</div>
+		 	<div id = "second"> 
+				 <a href="https://www.google.com/">
+					 Button1 
+	 			</a>		
+			
+			</div> 
+
+			<div id = "third">
+				<a href="https://www.google.com/">
+					 Button2 
+	 			</a>		
+			
+			 </div> 
+			<div id = "fourth"> 
+				<a href="https://www.google.com/">
+					 Button3 
+	 			</a>
+			</div>
+			<div id = "fifth"> 
+				 <a href="https://www.google.com/">
+					 Button4 
+	 			</a>		
+			
+			</div> 
+			<div id = "sixth"> 
+				 <a href="https://www.google.com/">
+					 Button5
+	 			</a>		
+			
+			</div> 
+			<div id = "seventh"> 
+				 <a href="https://www.google.com/">
+					 Button6
+	 			</a>		
+			
+			</div> 
+			<div id = "eighth"> 
+				 <a href="https://www.google.com/">
+					 Button7
+	 			</a>		
+			
+			</div> 
+			<div id = "ninth"> 
+				 <a href="https://www.google.com/">
+					 Button8 
+	 			</a>		
+			
+			</div>
+		</div>  
+	</body> 
+</html>

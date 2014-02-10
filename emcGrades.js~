@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $("#one").click(function(){
+    $("#onePanel").slideToggle();
+});
+  $("#one").click(function(){
+    $("#onePanel").slideDown("slow");
+  });
+  $("#one").click(function(){
+    $("#onePanel").slideUp("slow");
+  });
+});
+

@@ -1,0 +1,95 @@
+body {
+	background-color: black; 	
+
+}
+
+
+
+#header {
+	top: 10px; 
+	left: 10px; 
+	color: white;
+	background-color: #000052; 
+	height: 250px;
+	width: 1280px; 
+	padding: 10px;
+	position: fixed;
+}
+
+p {
+	size: 50%;
+	font-size: 140%;
+	position: fixed;
+	left: 800px; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans;
+}
+ul {	
+	border: 2px solid; 
+	display: inline;
+	font-size: 150%;
+	color: #C8C8C8;
+	padding: 10px; 
+	background-color: #606060;
+	position: relative; 
+	top: 200px;
+}
+ 
+a { 
+	text-decoration: none;
+	font-family: "Lucida Sans", "Lucida Grande", sans;
+	color: #C8C8C8;
+	text-align: center; 
+}
+
+a:visited {
+	color: #C8C8C8; 
+}
+
+a:hover {
+	color: #000052; 
+}
+
+
+#slider {
+	background-color: white; 
+	height: 100px;
+	width: 1000px;  
+	position: fixed;
+	top: 300px;
+	left: 100px; 
+}
+
+#posts {
+	background-color: white; 
+	height: 100px; 
+	width: 1000px; 
+	position: fixed;
+	top: 500px;
+	left: 100px;
+}
+
+#one, #onePanel { 	
+	padding: 3px; 
+	font-family: "Lucida Sans", "Lucida Grande", sans;
+	font-size: 140%;	
+	text-align: center; 
+	background-color: #AD3333; 
+	height: 30px;
+	width: 500px; 
+	position: fixed; 
+	top: 300px; 
+	left: 100px;
+	border: 2px solid;
+	border-color: white;  
+	border-radius: 25px;
+	padding: 10px;    
+	}
+
+#one:hover {
+	background-color: blue;  
+}
+#onePanel {
+  	top: 350px; 
+	padding:10px;
+	display: none; 
+}

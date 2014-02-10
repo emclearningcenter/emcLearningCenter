@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet"
+ href="stylesheet.css"/>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js"></script>
+		<script type='text/javascript' src='slide.js'></script>
+		<title> 
+			EMC Learning Center
+		</title>
+	</head>	
+	<body>
+		<div id = "header">
+			<h1>
+				EMC Learning Center	
+			</h1>
+			<p> 
+				Where success is nurtured
+			</p>
+		</div>
+		<center> 
+			<div id = "buttons" >
+				<ul> 
+					<a href="file:///home/samia.emcLearningCenter/tester.html">Grades</a>
+					|
+					<a href="https:www.google.com/">SHSAT</a>
+					|
+					<a href="https:www.google.com/">PSAT</a>
+					|
+					<a href="https:www.google.com/">SAT</a>		
+					|
+					<a href="https:www.google.com/">Workshops</a>
+					|
+					<a href="https:www.google.com/">Writing Garden</a>
+					|
+					<a href="https:www.google.com/">Math Problems</a>
+					|
+					<a href="https:www.google.com/">Chess</a>
+				</ul> 
+			</div>
+		
+			<div id = "slider"> 
+				slides 
+			</div>
+			<div id = "posts"> 
+			 
+				posts 
+				
+			</div>
+		</center>
+	</body> 
+</html>
