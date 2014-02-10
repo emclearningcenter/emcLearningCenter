@@ -50,28 +50,55 @@ a:hover {
 	color: #000052; 
 }
 
-#one, #onePanel { 	
+#one, #onePanel, #two, #twoPanel, #three, #threePanel { 	
 	padding: 3em; 
 	font-family: "Lucida Sans", "Lucida Grande", sans;
 	font-size: 150%;	
 	text-align: center; 
 	background-color: #AD3333; 
-	width: 25em; 
-	position: fixed; 
-	top: 25em; 
-	left: 3em;
+	width: 23.5em; 
+	position: fixed;  
 	border: 0.2em solid;
 	border-color: white;  
 	border-radius: 10px;
 	padding: 0.5em;    
 	}
+#one {
+	top: 25em;
+	left: 3em;
+}
 
-#one:hover {
+#one:hover, #two:hover, #three:hover {
 	background-color: blue;  
 }
-#onePanel {
+
+#two {
+	top: 25em; 
+	left: 28em; 
+}
+
+#three {
+	top: 25em; 
+	left: 53em; 
+}
+
+#onePanel, #twoPanel, #threePanel {
 	position: fixed;
   	top: 28em; 
 	padding:0.5em;
 	display: none; 
 }
+
+#onePanel {
+	left: 3em;
+}
+
+#twoPanel {
+	left: 28em; 
+}
+
+#threePanel {
+	left: 53em; 
+}
+
+
