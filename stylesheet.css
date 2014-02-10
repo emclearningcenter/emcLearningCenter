@@ -6,32 +6,33 @@ body {
 
 
 #header {
-	top: 10px; 
-	left: 10px; 
+	top: 1em; 
+	left: 1em; 
 	color: white;
 	background-color: #000052; 
-	height: 250px;
-	width: 1280px; 
-	padding: 10px;
+	height: 13em;
+	width: 45em; 
+	padding: 0.3em;
 	position: fixed;
+	font-size: 250%;
 }
 
 p {
-	size: 50%;
+	size: 100%;
 	font-size: 140%;
 	position: fixed;
-	left: 800px; 
+	left: 20em; 
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans;
 }
 ul {	
-	border: 2px solid; 
+	border: 0.2em solid; 
 	display: inline;
-	font-size: 150%;
+	font-size: 250%;
 	color: #C8C8C8;
-	padding: 10px; 
+	padding: 0.5em; 
 	background-color: #606060;
 	position: relative; 
-	top: 200px;
+	top: 12em;
 }
  
 a { 
@@ -49,46 +50,28 @@ a:hover {
 	color: #000052; 
 }
 
-
-#slider {
-	background-color: white; 
-	height: 100px;
-	width: 1000px;  
-	position: fixed;
-	top: 300px;
-	left: 100px; 
-}
-
-#posts {
-	background-color: white; 
-	height: 100px; 
-	width: 1000px; 
-	position: fixed;
-	top: 500px;
-	left: 100px;
-}
-
 #one, #onePanel { 	
-	padding: 3px; 
+	padding: 3em; 
 	font-family: "Lucida Sans", "Lucida Grande", sans;
-	font-size: 140%;	
+	font-size: 150%;	
 	text-align: center; 
 	background-color: #AD3333; 
-	width: 500px; 
+	width: 25em; 
 	position: fixed; 
-	top: 300px; 
-	left: 100px;
-	border: 2px solid;
+	top: 25em; 
+	left: 3em;
+	border: 0.2em solid;
 	border-color: white;  
-	border-radius: 25px;
-	padding: 10px;    
+	border-radius: 10px;
+	padding: 0.5em;    
 	}
 
 #one:hover {
 	background-color: blue;  
 }
 #onePanel {
-  	top: 350px; 
-	padding:10px;
+	position: fixed;
+  	top: 28em; 
+	padding:0.5em;
 	display: none; 
 }
