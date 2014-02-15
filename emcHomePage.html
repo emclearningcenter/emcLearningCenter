@@ -5,8 +5,31 @@
  href="stylesheet.css"/>
 		<link type="text/css" rel="stylesheet"
  href="homeCss.css"/>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js"></script>
-		<script type='text/javascript' src='slide.js'></script>
+		<style type = "text/css">
+.banner { position: relative; 
+  overflow: auto;
+  top: 30px;
+  background: white;
+  border: 2px solid;  
+  min-height: 400px;  
+  text-align: center;
+	  
+ }
+.banner li { list-style: none; }
+.banner ul li { left: 100px; float: left; }
+</style>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script src="http://unslider.com/unslider.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$(function() {
+$('.banner').unslider();
+});
+});
+</script>
+
 		<title> 
 			EMC Learning Center
 		</title>
@@ -50,9 +73,13 @@
 				
 			</ul> 
 		</div>
-		<div id = "slides">
-			slides 
-		</div>
+		<div class="banner">
+    <ul>
+        <li><img src="http://sathiyam.tv/english/wp-content/uploads/2013/10/0225.jpg" alt="chess" width = "700" height = "400"></li>
+        <li><img src="http://www.fsclchess.org/Chess.jpg" alt="chess" width = "700" height = "400"></li>
+        <li><img src="http://www.360solutions.com/blog/wp-content/uploads/2012/07/books.jpg" alt="chess" width = "700" height = "400"></li>
+    </ul>
+</div>
 		<div id = "stories">
 			stories
 		</div>

@@ -3,7 +3,7 @@
 	margin: 0 auto;  
 }
 
-#one, #two, #three, #four, #five, #six { 	
+#one, #onePanel, #two, #twoPanel, #three, #threePanel, #four, #five, #six { 	
 	padding: 0.5%; 
 	font-family: "Lucida Sans", "Lucida Grande", sans;
 	font-size: 2em;	  
@@ -14,7 +14,7 @@
 	width: 25%;
 	text-align: center; 
 	}
-#one { 
+#one {
 	background-color: #FDF748;
 	top: 120%;
 	left: 3%;
@@ -67,5 +67,58 @@
 
 #three:hover {
 	background-color: #89A9FF;
+}
+
+#four:hover {
+	background-color: white; 
+}
+
+#five:hover {
+	background-color: white; 
+}
+
+#six:hover {
+	background-color: white; 
+}
+
+#onePanel, #twoPanel, #threePanel, #fourPanel, #fivePanel, #sixPanel {
+	position: absolute;
+  	top: 160%; 
+	padding:0.5em;
+	display: none; 
+}
+
+#fourPanel, #fivePanel, #sixPanel {
+	top: 200%; 
+}
+
+#onePanel {
+	background-color: #FDF748;	
+	left: 3%;
+}
+
+#twoPanel {
+	background-color: #42D024;
+	left: 36%; 
+}
+
+#threePanel {
+	background-color: #234297; 
+	left: 69%; 
+}
+
+#fourPanel {
+	background-color: red; 
+	left: 3%;  
+}
+
+#fivePanel {
+	background-color: purple; 
+	left: 36%;  
+}
+
+#sixPanel {
+	background-color: pink; 
+	left: 69%;  
 }
 

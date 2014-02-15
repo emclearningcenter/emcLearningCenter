@@ -8,5 +8,16 @@ $(document).ready(function(){
 	$("#three").click(function(){
    	 $("#threePanel").slideToggle();
 });
+	$("#four").click(function(){
+   	 $("#fourPanel").slideToggle();
+});
+	$("#five").click(function(){
+   	 $("#fivePanel").slideToggle();
+});
+	$("#six").click(function(){
+   	 $("#sixPanel").slideToggle();
+});
+
+
 });
 

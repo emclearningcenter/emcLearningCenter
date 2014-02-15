@@ -1,35 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-</script>
-<script> 
+<style type = "text/css">
+.banner { position: relative; overflow: auto; 
+  background: #0f0; 
+  min-height: 100px; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }
+</style>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script src="http://unslider.com/unslider.min.js"></script>
+
+<script>
 $(document).ready(function(){
-  $("#flip").click(function(){
-    $("#panel").slideDown("slow");
-  });
+$(function() {
+$('.banner').unslider();
+});
 });
 </script>
- 
-<style type="text/css"> 
-#panel,#flip
-{
-padding:5px;
-text-align:center;
-background-color:#e5eecc;
-border:solid 1px #c3c3c3;
-}
-#panel
-{
-padding:50px;
-display:none;
-}
-</style>
 </head>
 <body>
  
-<div id="flip">Click to slide down panel</div>
-<div id="panel">Hello world!</div>
+<div class="banner">
+    <ul>
+        <li>This is a slide.</li>
+        <li>This is another slide.</li>
+        <li>This is a final slide.</li>
+    </ul>
+</div>
 
 </body>
 </html>

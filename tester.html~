@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script type='text/javascript' src='emcGrades.js'></script>
-	<script> 
-		div {
-			background-color: red; 
-			height: 100px; 
-			width: 100px; 
+<head>
+<style type = "text/css">
+.banner { position: relative; overflow: auto; 
+  background: #0f0; 
+  min-height: 100px; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }
+</style>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-			}
-	</script> 
-	
-  </head>
-  <body>
-    <div> 
-	please work	
-	</div>	
-  </body>
+<script src="http://unslider.com/unslider.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$(function() {
+$('.banner').unslider();
+});
+});
+</script>
+
+</head>
+<body>
+ 
+<div class="banner">
+    <ul>
+        <li>This is a slide.</li>
+        <li>This is another slide.</li>
+        <li>This is a final slide.</li>
+    </ul>
+</div>
+
+</body>
 </html>
+

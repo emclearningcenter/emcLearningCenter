@@ -1,13 +1,5 @@
-#slides {
-	position: absolute; 
-	top: 115%;
-	left: 10%; 
-	height: 90%;
-	width: 75%;
-	background-color: yellow; 
-	border: 2px solid; 
-	text-align: center; 
-
+img {
+	display: none; 
 }
 
 #stories {
@@ -24,7 +16,7 @@
 
 #blog {
 	position: absolute; 
-	top: 170%; 
+	top: 230%; 
 	left: 10%; 
 	height: 200%; 
 	width: 60%; 
