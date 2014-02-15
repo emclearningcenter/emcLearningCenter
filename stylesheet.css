@@ -1,5 +1,6 @@
 body {
-	background-color: white; 	
+	width: 100%; 
+	margin: 0 auto;   	
 
 }
 
@@ -14,7 +15,7 @@ body {
 	width: 80em; 
 	padding: 0.4em;
 	position: fixed;
-	font-size: 150%;
+	font-size: 1.5em;
 	box-shadow: 0.1em 0.1em 0.1em #888888;
 	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 	display: inline; 
@@ -22,18 +23,20 @@ body {
 
 p {
 	color: black;
-	font-size: 175%;
+	font-size: 1.5em;
 	position: relative;
 	top: 0.7em; 
-	left: 8em;
 	text-align: center; 
 	font-family: "Brush Script MT", cursive;
 }
+
+#buttons {
+	text-align: center; 
+}
 ul {	
 	border: 0.1em outset #C8C8C8;
-	border-radius: 10px;
 	display: inline;
-	font-size: 175%;
+	font-size: 150%;
 	padding: 0.5em; 
 	background-color: white;
 	position: relative; 
@@ -43,47 +46,52 @@ ul {
 a { 
 	text-decoration: none;
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-	color: #C8C8C8;
+	color: #787878;
 	text-align: center; 
 }
 
 a:visited {
-	color: #C8C8C8; 
+	color: #787878; 
 }
 
 a:hover {
 	color: #000052; 
 }
 
+#gradeInfo {
+	width: 100%;
+	margin: 0 auto;  
+}
+
 #one, #onePanel, #two, #twoPanel, #three, #threePanel { 	
 	padding: 0.5em; 
 	font-family: "Lucida Sans", "Lucida Grande", sans;
-	font-size: 150%;	
-	text-align: center; 
-	width: 23.5em; 
+	font-size: 150%;	  
 	position: fixed;  
 	border: 0.2em solid;
 	border-color: white;  
 	border-radius: 10px;
+	width: 25%;
 	}
 #one {
 	background-color: #FDF748;
 	top: 15em;
-	left: 3em;
+	left: 3%;
 	border: 0.2em outset white ;
+	
 }
 
 #two {
 	background-color: #42D024;
-	top: 15em; 
-	left: 28em; 
+	top: 15em;
+	left: 36%;  
 	border: 0.2em outset white ;
 }
 
 #three {
 	background-color: #234297;
-	top: 15em; 
-	left: 53em; 
+	top: 15em;
+	left: 69%;  
 	border: 0.2em outset white ;
 }
 
@@ -107,17 +115,17 @@ a:hover {
 
 #onePanel {
 	background-color: #FDF748;
-	left: 3em;
+	left: 3%;
 }
 
 #twoPanel {
 	background-color: #42D024;
-	left: 28em; 
+	left: 36%; 
 }
 
 #threePanel {
 	background-color: #234297; 
-	left: 53em; 
+	left: 69%; 
 }
 
 
