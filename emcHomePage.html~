@@ -3,6 +3,8 @@
 	<head>
 		<link type="text/css" rel="stylesheet"
  href="stylesheet.css"/>
+		<link type="text/css" rel="stylesheet"
+ href="homeCss.css"/>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js"></script>
 		<script type='text/javascript' src='slide.js'></script>
 		<title> 
@@ -14,6 +16,8 @@
 			<h1>
 				EMC Learning Center	
 			</h1>
+		</div>
+		<div id = "quotes">
 			<p> 
 				Where success is nurtured
 			</p>
@@ -46,9 +50,11 @@
 				
 			</ul> 
 		</div>
-		<div id = "slides">
-			slides 
-		</div>
+		<center>
+			<div id = "slides">
+				slides 
+			</div>
+		</center>
 		<div id = "stories">
 			stories
 		</div>

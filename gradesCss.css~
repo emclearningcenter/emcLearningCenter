@@ -1,0 +1,71 @@
+#gradeInfo {
+	width: 100%;
+	margin: 0 auto;  
+}
+
+#one, #two, #three, #four, #five, #six { 	
+	padding: 0.5%; 
+	font-family: "Lucida Sans", "Lucida Grande", sans;
+	font-size: 2em;	  
+	position: absolute;  
+	border: 2px solid;
+	border-color: white;  
+	border-radius: 10px;
+	width: 25%;
+	text-align: center; 
+	}
+#one { 
+	background-color: #FDF748;
+	top: 120%;
+	left: 3%;
+	border: 0.2em outset white ;
+	
+}
+
+#two {
+	background-color: #42D024;
+	top: 120%;
+	left: 36%;  
+	border: 0.2em outset white ;
+}
+
+#three {
+	background-color: #234297;
+	top: 120%;
+	left: 69%;  
+	border: 0.2em outset white ;
+}
+
+#four {
+	background-color: red; 
+	top: 160%; 
+	left: 3%; 
+	border: 0.2em outset white; 
+}
+
+#five {
+	background-color: purple; 
+	top: 160%; 
+	left: 36%; 
+	border: 0.2em outset white; 
+}
+
+#six {
+	background-color: pink; 
+	top: 160%; 
+	left: 69%; 
+	border: 0.2em outset white; 
+}
+
+#one:hover {
+	background-color: #FFFCA4;  
+}
+
+#two:hover {
+	background-color: #A8FF96;
+}
+
+#three:hover {
+	background-color: #89A9FF;
+}
+

@@ -1,0 +1,33 @@
+#onePanel, #twoPanel, #threePanel {
+	padding: 0.5%; 
+	font-family: "Lucida Sans", "Lucida Grande", sans;
+	font-size: 2em;	  
+	position: absolute;  
+	border: 2px solid;
+	border-color: white;  
+	border-radius: 10px;
+	width: 25%;
+	text-align: center; 
+}
+
+#onePanel, #twoPanel, #threePanel {
+	position: relative;
+  	top: 100px; 
+	display: none; 
+}
+
+#onePanel {
+	background-color: #FDF748;
+	left: 3%;
+}
+
+#twoPanel {
+	background-color: #42D024;
+	left: 36%; 
+}
+
+#threePanel {
+	background-color: #234297; 
+	left: 69%; 
+}
+

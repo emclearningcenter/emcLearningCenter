@@ -1,32 +1,27 @@
 body {
-	width: 100%; 
-	margin: 0 auto;   	
-
+	width: 100%;   	
+	position: absolute;
+	margin: auto;  
 }
 
 
 
-#header {
-	top: 0em; 
-	left: 0em; 
+#header {  
 	color: white;
 	background-color: #000052; 
-	height: 5em;
-	width: 80em; 
-	padding: 0.4em;
-	position: fixed;
-	font-size: 1.5em;
+	height: 10%;
+	width: 100%; 
+	padding: 0.01%;
+	font-size: 1.3em;
 	box-shadow: 0.1em 0.1em 0.1em #888888;
-	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-	display: inline; 
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
 }
 
 p {
 	color: black;
 	font-size: 1.5em;
-	position: relative;
-	top: 0.7em; 
-	text-align: center; 
+	top: 20%; 
+	text-align: right; 
 	font-family: "Brush Script MT", cursive;
 }
 
@@ -36,18 +31,15 @@ p {
 ul {	
 	border: 0.1em outset #C8C8C8;
 	display: inline;
-	font-size: 147%;
-	padding: 0.5em; 
+	font-size: 1.47em;
+	padding: 0.5%; 
 	background-color: white;
-	position: relative; 
-	top: 10em;
 }
  
 a { 
 	text-decoration: none;
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-	color: #787878;
-	text-align: center; 
+	color: #787878; 
 }
 
 a:visited {
@@ -56,34 +48,6 @@ a:visited {
 
 a:hover {
 	color: #000052; 
-}
-
-
-}
-
-#three:hover {
-	background-color: #89A9FF;
-}
-#onePanel, #twoPanel, #threePanel {
-	position: fixed;
-  	top: 18em; 
-	padding:0.5em;
-	display: none; 
-}
-
-#onePanel {
-	background-color: #FDF748;
-	left: 3%;
-}
-
-#twoPanel {
-	background-color: #42D024;
-	left: 36%; 
-}
-
-#threePanel {
-	background-color: #234297; 
-	left: 69%; 
 }
 
 

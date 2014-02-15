@@ -24,7 +24,7 @@
 
 #blog {
 	position: absolute; 
-	top: 230%; 
+	top: 170%; 
 	left: 10%; 
 	height: 200%; 
 	width: 60%; 
