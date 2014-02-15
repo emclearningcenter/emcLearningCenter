@@ -3,8 +3,6 @@
 	<head>
 		<link type="text/css" rel="stylesheet"
  href="stylesheet.css"/>
-		<link type="text/css" rel="stylesheet"
- href="homeCss.css"/>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js"></script>
 		<script type='text/javascript' src='slide.js'></script>
 		<title> 
@@ -34,8 +32,6 @@
 				|
 				<a href="https:www.google.com/">Math</a>
 				|
-				<a href="https:www.google.com/">Math Competition</a>
-				|
 				<a href="https:www.google.com/">Puzzles</a>
 				|
 				<a href="https:www.google.com/">Writing</a>
@@ -47,15 +43,6 @@
 	
 				
 			</ul> 
-		</div>
-		<div id = "slides">
-			slides 
-		</div>
-		<div id = "stories">
-			stories
-		</div>
-		<div id = "blog">
-			blogs 
 		</div>
 	</body> 
 </html>

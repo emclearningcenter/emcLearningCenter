@@ -36,22 +36,22 @@ p {
 ul {	
 	border: 0.1em outset #C8C8C8;
 	display: inline;
-	font-size: 150%;
+	font-size: 147%;
 	padding: 0.5em; 
 	background-color: white;
 	position: relative; 
-	top: 9em;
+	top: 10em;
 }
  
 a { 
 	text-decoration: none;
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-	color: #C8C8C8;
+	color: #787878;
 	text-align: center; 
 }
 
 a:visited {
-	color: #C8C8C8; 
+	color: #787878; 
 }
 
 a:hover {
@@ -72,6 +72,7 @@ a:hover {
 	border-color: white;  
 	border-radius: 10px;
 	width: 25%;
+	text-align: center; 
 	}
 #one {
 	background-color: #FDF748;

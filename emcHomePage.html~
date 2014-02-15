@@ -30,13 +30,30 @@
 				|
 				<a href="https:www.google.com/">SAT</a>		
 				|
-				<a href="https:www.google.com/">Chess</a>
+				<a href="https:www.google.com/">Math</a>
+				|
+				<a href="https:www.google.com/">Math Competition</a>
+				|
+				<a href="https:www.google.com/">Puzzles</a>
 				|
 				<a href="https:www.google.com/">Writing</a>
+				|
+				<a href="https:www.google.com/">Writing Garden</a>
+				|
+				<a href="https:www.google.com/">Chess</a>
 				
 	
 				
 			</ul> 
+		</div>
+		<div id = "slides">
+			slides 
+		</div>
+		<div id = "stories">
+			stories
+		</div>
+		<div id = "blog">
+			blogs 
 		</div>
 	</body> 
 </html>
