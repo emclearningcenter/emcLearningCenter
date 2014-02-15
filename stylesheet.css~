@@ -5,7 +5,6 @@ body {
 }
 
 
-
 #header {  
 	color: white;
 	background-color: #000052; 
@@ -17,17 +16,15 @@ body {
 	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
 }
 
-#quotes {
-color: black;
-font-size: 1.5em;
-top: 20%;
-text-align: right;
-font-family: "Brush Script MT", cursive;
+#social {
+	position: absolute; 
+	left: 40%;
+	display: block; 
 }
 
 #buttons {
 	position: absolute; 
-	top: 30%; 
+	top: 35%; 
 	text-align: center;  	
 	display: inline;
 	font-size: 1.47em;

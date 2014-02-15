@@ -1,35 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style type = "text/css">
-.banner { position: relative; overflow: auto; 
-  background: #0f0; 
-  min-height: 100px; }
-.banner li { list-style: none; }
-.banner ul li { float: left; }
-</style>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-
-<script src="http://unslider.com/unslider.min.js"></script>
-
-<script>
-$(document).ready(function(){
-$(function() {
-$('.banner').unslider();
-});
-});
-</script>
-
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 </head>
 <body>
- 
-<div class="banner">
-    <ul>
-        <li>This is a slide.</li>
-        <li>This is another slide.</li>
-        <li>This is a final slide.</li>
-    </ul>
-</div>
+
 
 </body>
 </html>
