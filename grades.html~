@@ -21,12 +21,9 @@
 			</h1>
 		</div>
 		<div id = "quotes">
-			<p> 
-				Where success is nurtured
-			</p>
+			<p>Where success is nurtured</p>
 		</div> 
-		<div id = "buttons" >
-			<ul> 
+		<div id = "buttons" > 
 				<a href="file:///home/samia.emcLearningCenter/.html">Home</a>
 				|
 				<a href="file:///C:/Users/Nazifa/Documents/GitHub/emcLearningCenter/grades.html">Grades (1-6)</a>
@@ -51,9 +48,7 @@
 				
 	
 				
-			</ul> 
 		</div>
- 
 			<div id = "gradeInfo" >
 				<div id = "one"> 
 					Grade 1
@@ -83,6 +78,15 @@ grade 2 info
 				</div>
 				<div id = "threePanel">
 grade 3 info 					
+				</div>
+				<div id = "fourPanel">
+grade 4 info 					
+				</div>
+				<div id = "fivePanel">
+grade 5 info 					
+				</div>
+				<div id = "sixPanel">
+grade 6 info 					
 				</div>
 			</div>			
 	</body> 

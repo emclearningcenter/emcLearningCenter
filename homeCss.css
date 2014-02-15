@@ -1,8 +1,7 @@
 
-
 #stories {
 	position: absolute; 
-	top: 230%; 
+	top: 125%; 
 	left: 77%; 
 	height: 70%; 
 	width: 20%; 
@@ -14,7 +13,7 @@
 
 #blog {
 	position: absolute; 
-	top: 230%; 
+	top: 125%; 
 	left: 10%; 
 	height: 200%; 
 	width: 60%; 
