@@ -5,11 +5,30 @@
  href="stylesheet.css"/>
 		<link type="text/css" rel="stylesheet"
  href="gradesCss.css"/>
-		<link type="text/css" rel="stylesheet"
- href="panels.css"/>
-			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		<style type = "text/css">
+.banner { position: relative; 
+  overflow: auto;
+  top: 90px;
+  background: white;  
+  min-height: 100px;  
+  text-align: center;
+	  
+ }
+.banner li { list-style: none; }
+.banner ul li { left: 100px; float: left; }
+</style>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script src="http://unslider.com/unslider.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$(function() {
+$('.banner').unslider();
+});
+});
 </script>
-<script type="text/javascript" src="emcGrades.js"></script> 
+
 		<title> 
 			EMC Learning Center
 		</title>

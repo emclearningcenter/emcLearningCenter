@@ -27,7 +27,7 @@ font-family: "Brush Script MT", cursive;
 
 #buttons {
 	position: absolute; 
-	top: 20%; 
+	top: 30%; 
 	text-align: center;  	
 	display: inline;
 	font-size: 1.47em;

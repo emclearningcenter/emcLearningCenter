@@ -1,4 +1,6 @@
-.banner { position: relative; overflow: auto; }
+.banner { position: relative; overflow: auto; 
+background: #0f0;
+min-height: 100px;}
 
     .banner li { list-style: none; }
 

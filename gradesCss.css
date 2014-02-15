@@ -1,10 +1,5 @@
-#gradeInfo {
-	width: 100%;
-	margin: 0 auto;  
-}
-
 #one, #onePanel, #two, #twoPanel, #three, #threePanel, #four, #fourPanel, #five, #fivePanel, #six, #sixPanel { 	
-	padding: 0.5%; 
+	padding: 0.1%; 
 	font-family: "Lucida Sans", "Lucida Grande", sans;
 	font-size: 2em;	  
 	position: absolute;  
@@ -18,7 +13,7 @@
 	background-color: #FDF748;
 	top: 120%;
 	left: 3%;
-	border: 0.2em outset white ;
+	border: 0.2em outset white;
 	
 }
 
