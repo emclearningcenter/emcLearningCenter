@@ -1,43 +1,46 @@
 body {
-	background-color: black; 	
+	background-color: white; 	
 
 }
 
 
 
 #header {
-	top: 1em; 
-	left: 1em; 
+	top: 0em; 
+	left: 0em; 
 	color: white;
 	background-color: #000052; 
-	height: 13em;
-	width: 45em; 
-	padding: 0.3em;
+	height: 5em;
+	width: 80em; 
+	padding: 0.4em;
 	position: fixed;
-	font-size: 250%;
+	font-size: 200%;
+	box-shadow: 0.1em 0.1em 0.1em #888888;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	display: inline; 
 }
 
 p {
-	size: 100%;
+	color: black;
 	font-size: 140%;
-	position: fixed;
-	left: 20em; 
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans;
+	position: relative;
+	top: 0.5em; 
+	text-align: center; 
+	font-family: "Brush Script MT", cursive;
 }
 ul {	
-	border: 0.2em solid; 
+	border: 0.1em outset #C8C8C8; 
 	display: inline;
-	font-size: 250%;
-	color: #C8C8C8;
+	font-size: 200%;
 	padding: 0.5em; 
 	background-color: #606060;
 	position: relative; 
-	top: 12em;
+	top: 8em;
 }
  
 a { 
 	text-decoration: none;
-	font-family: "Lucida Sans", "Lucida Grande", sans;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 	color: #C8C8C8;
 	text-align: center; 
 }
@@ -55,49 +58,64 @@ a:hover {
 	font-family: "Lucida Sans", "Lucida Grande", sans;
 	font-size: 150%;	
 	text-align: center; 
-	background-color: #AD3333; 
 	width: 23.5em; 
 	position: fixed;  
 	border: 0.2em solid;
 	border-color: white;  
 	border-radius: 10px;
-	padding: 0.5em;    
+	padding: 0.5em;
 	}
 #one {
-	top: 25em;
+	background-color: #FDF748;
+	top: 15em;
 	left: 3em;
-}
-
-#one:hover, #two:hover, #three:hover {
-	background-color: blue;  
+	border: 0.2em outset white ;
 }
 
 #two {
-	top: 25em; 
+	background-color: #42D024;
+	top: 15em; 
 	left: 28em; 
+	border: 0.2em outset white ;
 }
 
 #three {
-	top: 25em; 
+	background-color: #234297;
+	top: 15em; 
 	left: 53em; 
+	border: 0.2em outset white ;
 }
 
+#one:hover {
+	background-color: #FFFCA4;  
+}
+
+#two:hover {
+	background-color: #A8FF96;
+}
+
+#three:hover {
+	background-color: #89A9FF;
+}
 #onePanel, #twoPanel, #threePanel {
 	position: fixed;
-  	top: 28em; 
+  	top: 18em; 
 	padding:0.5em;
 	display: none; 
 }
 
 #onePanel {
+	background-color: #FDF748;
 	left: 3em;
 }
 
 #twoPanel {
+	background-color: #42D024;
 	left: 28em; 
 }
 
 #threePanel {
+	background-color: #234297; 
 	left: 53em; 
 }
 
