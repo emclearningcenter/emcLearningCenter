@@ -1,12 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
-<head>
-<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
-<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-</head>
-<body>
+	<head>
+		<meta name="google-translate-customization" content="3f38eb485c0c94be-24e09c82ecaec764-g224484ffa895c9ea-1e"></meta>
+        
 
-
-</body>
+		<link type="text/css" rel="stylesheet"
+ href="tester.css"/>
+	
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+	</head>
+	<div id = "translate">	
+		<div id="google_translate_element"></div><script type="text/javascript">
+	function googleTranslateElementInit() {
+	  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: true}, 'google_translate_element');
+	}
+	</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	</div> 
 </html>
-
+        

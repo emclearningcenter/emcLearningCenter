@@ -16,6 +16,7 @@
 	</head>	
 	<body>
 		<div id = "header">
+				<img src="logo.png" alt="Logo">
 				EMC Learning Center
 			<div id = "translate">
 				<p> translator </p>
