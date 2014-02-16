@@ -1,0 +1,23 @@
+
+#stories {
+	position: absolute; 
+	top: 160%; 
+	left: 77%; 
+	height: 70%; 
+	width: 20%; 
+	background-color: red; 
+	border: 2px solid; 
+	text-align: center; 
+
+}
+
+#blog {
+	position: absolute; 
+	top: 160%; 
+	left: 10%; 
+	height: 200%; 
+	width: 60%; 
+	background-color: blue; 
+	border: 2px solid; 
+	text-align: center; 
+}

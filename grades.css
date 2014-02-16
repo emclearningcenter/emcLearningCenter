@@ -1,0 +1,119 @@
+#one, #onePanel, #two, #twoPanel, #three, #threePanel, #four, #fourPanel, #five, #fivePanel, #six, #sixPanel { 	
+	padding: 0.1%; 
+	font-family: "Lucida Sans", "Lucida Grande", sans;
+	font-size: 2em;	  
+	position: absolute;  
+	border: 2px solid;
+	border-color: white;  
+	border-radius: 10px;
+	width: 25%;
+	text-align: center; 
+	}
+#one {
+	background-color: #FDF748;
+	top: 120%;
+	left: 3%;
+	border: 0.2em outset white;
+	
+}
+
+#two {
+	background-color: #42D024;
+	top: 120%;
+	left: 36%;  
+	border: 0.2em outset white ;
+}
+
+#three {
+	background-color: #234297;
+	top: 120%;
+	left: 69%;  
+	border: 0.2em outset white ;
+}
+
+#four {
+	background-color: red; 
+	top: 160%; 
+	left: 3%; 
+	border: 0.2em outset white; 
+}
+
+#five {
+	background-color: purple; 
+	top: 160%; 
+	left: 36%; 
+	border: 0.2em outset white; 
+}
+
+#six {
+	background-color: pink; 
+	top: 160%; 
+	left: 69%; 
+	border: 0.2em outset white; 
+}
+
+#one:hover {
+	background-color: #FFFCA4;  
+}
+
+#two:hover {
+	background-color: #A8FF96;
+}
+
+#three:hover {
+	background-color: #89A9FF;
+}
+
+#four:hover {
+	background-color: white; 
+}
+
+#five:hover {
+	background-color: white; 
+}
+
+#six:hover {
+	background-color: white; 
+}
+
+#onePanel, #twoPanel, #threePanel, #fourPanel, #fivePanel, #sixPanel {
+	position: absolute;
+  	top: 160%; 
+	padding:0.5em;
+	display: none; 
+}
+
+#fourPanel, #fivePanel, #sixPanel {
+	top: 200%; 
+}
+
+#onePanel {
+	background-color: #FDF748;	
+	left: 3%;
+}
+
+#twoPanel {
+	background-color: #42D024;
+	left: 36%; 
+}
+
+#threePanel {
+	background-color: #234297; 
+	left: 69%; 
+}
+
+#fourPanel {
+	background-color: red; 
+	left: 3%;  
+}
+
+#fivePanel {
+	background-color: purple; 
+	left: 36%;  
+}
+
+#sixPanel {
+	background-color: pink; 
+	left: 69%;  
+}
+

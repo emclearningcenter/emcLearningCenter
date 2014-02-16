@@ -1,0 +1,49 @@
+body {
+	width: 100%;   	
+	position: absolute;
+	margin: auto;  
+}
+
+
+#header {  
+	color: #000052;
+	position: absolute;
+	height: 10%;
+	width: 100%; 
+	padding: 3%;
+	font-size: 2em;
+	box-shadow: 0.1em 0.1em 0.1em #888888;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;  
+	display: inline; 
+}
+
+#social {
+	position: absolute; 
+	right: 10%;  
+}
+
+#buttons {
+	position: absolute; 
+	top: 35%; 
+	text-align: center;  	
+	display: inline;
+	font-size: 1.47em;
+	padding: 0.5%; 
+	background-color: white;
+	border: 2px outset #C8C8C8;
+}
+ 
+a { 
+	text-decoration: none;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	color: #787878; 
+}
+
+a:visited {
+	color: #787878; 
+}
+
+a:hover {
+	color: #000052; 
+}
+
