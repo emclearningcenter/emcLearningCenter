@@ -16,7 +16,6 @@
 	</head>	
 	<body>
 		<div id = "header">
-				<img src="logo.png" alt="Logo">
 				EMC Learning Center
 			<div id = "translate">
 				<p> translator </p>
@@ -84,8 +83,13 @@
 		</div>
 		<div id = "blog">
 			<iframe src="http://www.nytimes.com/2014/02/16/technology/intels-sharp-eyed-social-scientist.html?hp" width = "800" height = "800" scrolling = "yes" seamless></iframe>
-		<h5> To continue reading click <a href="http://www.nytimes.com/2014/02/16/technology/intels-sharp-eyed-social-scientist.html?hp">here</a> </h5>			  
+		<h5> To continue reading click <a href="http://www.nytimes.com/2014/02/16/technology/intels-sharp-eyed-social-scientist.html?hp">here</a> </h5> 			  
 		</div>
-
+		<div id = "stories">
+			<div id = "selfPortrait"> 
+				<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/220px-GodfreyKneller-IsaacNewton-1689.jpg" alt = "newton">
+			</div>
+			Newton, Sir Isaac (1642-1727), English natural philosopher, generally regarded as the most original and influential theorist in the history of science. In addition to his invention of the infinitesimal calculus and a new theory of light and color, Newton transformed the structure of physical science with his three laws of motion and the law of universal gravitation. As the keystone of the scientific revolution of the 17th century, Newton's work combined the contributions of Copernicus, Kepler, Galileo, Descartes, and others into a new and powerful synthesis. Three centuries later the resulting structure - classical mechanics - continues to be a useful but no less elegant monument to his genius.		
+		</div>
 	</body> 
 </html>

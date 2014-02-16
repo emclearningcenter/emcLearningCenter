@@ -1,12 +1,13 @@
 #blog {
 	position: absolute;
 	margin: 0;
-	padding: 0% 5% 0% 5%; 
+	padding: 1% 5% 0% 5%; 
 	border: 2px solid;   
 	width: 60%; 
 	top: 40%; 
 	left: 5%; 
-	box-shadow: 0.1em 0.1em 0.1em 0.1em #888888;  
+	box-shadow: 0.1em 0.1em 0.1em 0.1em #888888;
+	  
 }
 
 #blog iframe {
@@ -33,4 +34,15 @@
 	#schedule div
 }
 
+#stories {
+	width: 20%;
+	position: absolute; 
+	top: 70%;
+	right:0%;
+	border: 2px solid;    
+}
 
+#stories #selfPortrait {
+	text-align: center;
+	border: 2px solid;
+}
