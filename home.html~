@@ -16,7 +16,7 @@
 	</head>	
 	<body>
 		<div id = "header">
-				EMC Learning Center
+				<img src="logoBanner.png" alt="EMC Learning Center" height="140%" width="40%"> 
 			<div id = "translate">
 				<p> translator </p>
 				<div id="google_translate_element"></div><script type="text/javascript">
@@ -87,9 +87,10 @@
 		</div>
 		<div id = "stories">
 			<div id = "selfPortrait"> 
+			<h5> Newton, Sir Isaac (1642-1727)</h5>
 				<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/220px-GodfreyKneller-IsaacNewton-1689.jpg" alt = "newton">
 			</div>
-			Newton, Sir Isaac (1642-1727), English natural philosopher, generally regarded as the most original and influential theorist in the history of science. In addition to his invention of the infinitesimal calculus and a new theory of light and color, Newton transformed the structure of physical science with his three laws of motion and the law of universal gravitation. As the keystone of the scientific revolution of the 17th century, Newton's work combined the contributions of Copernicus, Kepler, Galileo, Descartes, and others into a new and powerful synthesis. Three centuries later the resulting structure - classical mechanics - continues to be a useful but no less elegant monument to his genius.		
+			English natural philosopher, generally regarded as the most original and influential theorist in the history of science. In addition to his invention of the infinitesimal calculus and a new theory of light and color, Newton transformed the structure of physical science with his three laws of motion and the law of universal gravitation. As the keystone of the scientific revolution of the 17th century, Newton's work combined the contributions of Copernicus, Kepler, Galileo, Descartes, and others into a new and powerful synthesis. Three centuries later the resulting structure - classical mechanics - continues to be a useful but no less elegant monument to his genius.		
 		</div>
 	</body> 
 </html>

@@ -1,18 +1,25 @@
 #blog {
 	position: absolute;
 	margin: 0;
-	padding: 1% 5% 0% 5%; 
-	border: 2px solid;   
+	padding: 1% 5% 0% 5%;   
 	width: 60%; 
 	top: 40%; 
 	left: 5%; 
 	box-shadow: 0.1em 0.1em 0.1em 0.1em #888888;
-	  
+	background-image:url('background.jpg');	  
 }
 
 #blog iframe {
 	position: relative;
 	float: bottom; 
+}
+
+#blog a, #schedule a {
+	color: #646B74;
+}
+
+#blog a:hover , #schedule a:hover {
+	color: #000052;
 }
 
 #schedule {
