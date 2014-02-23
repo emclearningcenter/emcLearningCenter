@@ -1,12 +1,11 @@
+
 #blog {
 	position: absolute;
 	margin: 0;
 	padding: 1% 5% 0% 5%;   
 	width: 60%; 
 	top: 40%; 
-	left: 5%; 
-	box-shadow: 0.1em 0.1em 0.1em 0.1em #888888;
-	background-image:url('background.jpg');	  
+	left: 3%; 
 }
 
 #blog iframe {
@@ -47,7 +46,8 @@
 	top: 70%;
 	right:0%;
 	border: 2px solid;    
-}
+	background-color: white;
+}	
 
 #stories #selfPortrait {
 	text-align: center;

@@ -9,14 +9,26 @@
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
 <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-
+	<style>
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #FFFFFF),
+	color-stop(0.77, #001A4D)
+);
+background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #001A4D 77%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #001A4D 77%);
+background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #001A4D 77%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #001A4D 77%);
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #001A4D 77%);	</style> 
 		<title> 
 			EMC Learning Center
 		</title>
 	</head>	
 	<body>
 		<div id = "header">
-				<img src="logoBanner.png" alt="EMC Learning Center" height="140%" width="40%"> 
+				<img src="logoBanner.png" alt="EMC Learning Center" height="100%" width="40%"> 
 			<div id = "translate">
 				<p> translator </p>
 				<div id="google_translate_element"></div><script type="text/javascript">
@@ -49,7 +61,7 @@
 			</div>		
 		</div>
 		<div id = "buttons" > 
-				<a href="file:///home/samia.emcLearningCenter/.html">Home</a>
+				<a href="file:///home/samia/Project/emcLearningCenter/home.html">Home</a>
 				|
 				<a href="file:///C:/Users/Nazifa/Documents/GitHub/emcLearningCenter/grades.html">Grades (1-6)</a>
 				|

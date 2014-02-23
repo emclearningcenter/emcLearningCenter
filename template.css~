@@ -1,7 +1,20 @@
+html {
+	min-height: 200%; 
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #FFFFFF),
+	color-stop(0.77, #3BF731)
+);
+background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #3BF731 77%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #3BF731 77%);
+background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #3BF731 77%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #3BF731 77%);
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #3BF731 77%);}
 body {
-	width: 100%;   	
-	margin: auto;
-	  
+	width: 100%;    	
+	margin: auto;  
 }
 
 
@@ -18,10 +31,16 @@ body {
 	display: inline; 
 }
 
+#header img {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+}
+
 #translate {
 	position: absolute; 
 	top: 0%; 
-	right: 30%; 	
+	right: 25%; 	
 	font-size: 0.3em; 
 	background-color: white; 
 	border: 2px solid; 
@@ -47,22 +66,22 @@ body {
 	display: inline;
 	font-size: 1.47em;
 	padding: 0.5%; 
-	background-color: white;
-	border: 2px outset #C8C8C8;
+	background-color: #000052;
+	border: 2px outset #888888;
 }
  
 a { 
 	text-decoration: none;
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-	color: #787878; 
+	color: white; 
 }
 
 a:visited {
-	color: #787878; 
+	color: white; 
 }
 
 a:hover {
-	color: #000052; 
+	color: #6FEA3A; 
 }
 
 gcse:search {

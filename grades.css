@@ -11,7 +11,7 @@
 	}
 #one {
 	background-color: #FDF748;
-	top: 120%;
+	top: 40%;
 	left: 3%;
 	border: 0.2em outset white;
 	
@@ -19,35 +19,35 @@
 
 #two {
 	background-color: #42D024;
-	top: 120%;
+	top: 40%;
 	left: 36%;  
 	border: 0.2em outset white ;
 }
 
 #three {
 	background-color: #234297;
-	top: 120%;
+	top: 40%;
 	left: 69%;  
 	border: 0.2em outset white ;
 }
 
 #four {
 	background-color: red; 
-	top: 160%; 
+	top: 80%; 
 	left: 3%; 
 	border: 0.2em outset white; 
 }
 
 #five {
 	background-color: purple; 
-	top: 160%; 
+	top: 80%; 
 	left: 36%; 
 	border: 0.2em outset white; 
 }
 
 #six {
 	background-color: pink; 
-	top: 160%; 
+	top: 80%; 
 	left: 69%; 
 	border: 0.2em outset white; 
 }
@@ -78,13 +78,13 @@
 
 #onePanel, #twoPanel, #threePanel, #fourPanel, #fivePanel, #sixPanel {
 	position: absolute;
-  	top: 160%; 
+  	top: 50%; 
 	padding:0.5em;
 	display: none; 
 }
 
 #fourPanel, #fivePanel, #sixPanel {
-	top: 200%; 
+	top: 90%; 
 }
 
 #onePanel {
